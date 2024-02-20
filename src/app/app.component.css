@@ -1,0 +1,52 @@
+.form
+{
+  width: 420px;
+  margin:40px auto;
+  padding: 20px;
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.form input
+{
+    padding: 10px;
+}
+.form label
+{
+    font-size: 20px;
+}
+#submit
+{
+    margin-left: 120px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(194, 228, 142);
+    font-weight: bold;
+    font-size: 20px;
+}
+input.ng-invalid.ng-touched
+{
+    border: 2px solid red;
+}
+.formArray input
+{
+    padding: 10px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+input.ng-valid 
+{
+    border: 3px solid green;
+}
+.myform.INVALID
+{
+    border: 1px solid red;
+}
+.myform.PENDING
+{
+    border: 3px solid yellow;
+}
+.myform.VALID{
+    border: 4px solid green;
+}
